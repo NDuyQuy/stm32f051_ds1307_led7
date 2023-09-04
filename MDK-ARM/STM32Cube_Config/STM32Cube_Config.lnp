@@ -1,0 +1,27 @@
+--cpu Cortex-M0
+"stm32cube_config\startup_stm32f051x8.o"
+"stm32cube_config\main.o"
+"stm32cube_config\stm32f0xx_it.o"
+"stm32cube_config\stm32f0xx_hal_msp.o"
+"stm32cube_config\i2c_sw.o"
+"stm32cube_config\ds1307_control.o"
+"stm32cube_config\stm32f0xx_hal_tim.o"
+"stm32cube_config\stm32f0xx_hal_tim_ex.o"
+"stm32cube_config\stm32f0xx_hal_rcc.o"
+"stm32cube_config\stm32f0xx_hal_rcc_ex.o"
+"stm32cube_config\stm32f0xx_hal.o"
+"stm32cube_config\stm32f0xx_hal_i2c.o"
+"stm32cube_config\stm32f0xx_hal_i2c_ex.o"
+"stm32cube_config\stm32f0xx_hal_gpio.o"
+"stm32cube_config\stm32f0xx_hal_dma.o"
+"stm32cube_config\stm32f0xx_hal_cortex.o"
+"stm32cube_config\stm32f0xx_hal_pwr.o"
+"stm32cube_config\stm32f0xx_hal_pwr_ex.o"
+"stm32cube_config\stm32f0xx_hal_flash.o"
+"stm32cube_config\stm32f0xx_hal_flash_ex.o"
+"stm32cube_config\stm32f0xx_hal_exti.o"
+"stm32cube_config\system_stm32f0xx.o"
+--strict --scatter "STM32Cube_Config\STM32Cube_Config.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32Cube_Config.map" -o STM32Cube_Config\STM32Cube_Config.axf
