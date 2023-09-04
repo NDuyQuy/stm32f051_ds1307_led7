@@ -87,7 +87,7 @@ void Error_Handler(void);
 #define I2C_SDA_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-
+void get_time(void);
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

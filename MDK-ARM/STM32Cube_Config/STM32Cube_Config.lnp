@@ -1,10 +1,10 @@
 --cpu Cortex-M0
 "stm32cube_config\startup_stm32f051x8.o"
+"stm32cube_config\i2c_sw.o"
+"stm32cube_config\ds1307_control.o"
 "stm32cube_config\main.o"
 "stm32cube_config\stm32f0xx_it.o"
 "stm32cube_config\stm32f0xx_hal_msp.o"
-"stm32cube_config\i2c_sw.o"
-"stm32cube_config\ds1307_control.o"
 "stm32cube_config\stm32f0xx_hal_tim.o"
 "stm32cube_config\stm32f0xx_hal_tim_ex.o"
 "stm32cube_config\stm32f0xx_hal_rcc.o"
